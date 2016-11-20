@@ -7,4 +7,15 @@ If you're on Ubuntu/Debian platform like me, you can simply enter the following 
 
     $ sudo apt-get install python-numpy
 
-## Example
+## Running the neural network
+Clone this repository in your system and go to the root directory of the cloned copy i.e. `~/Single-Layer-ANN`
+Now, just run `ann.py` in your terminal:
+
+    $ python ann.py
+
+To change the training example, you need to modify the training set for the network which is specified by numpy arrays named as `inputs` and `outputs` in the code; they basically represent input values and expected output for a given combination of inputs respectively.
+
+**Note:** Since this is a single layer network, it can only work with linearly separable functions or patterns e.g. AND and OR. Trying to play with this network using XOR would a waste of time. :)
+
+### License
+This code is distributed under the MIT license.
