@@ -15,7 +15,7 @@ Now, just run `ann.py` in your terminal:
 
 To change the training example, you need to modify the training set for the network which is specified by numpy arrays named as `inputs` and `outputs` in the code; they basically represent input values and expected output for a given combination of inputs respectively.
 
-**Note:** Since this is a single layer network, it can only work with linearly separable functions or patterns e.g. AND and OR. Trying to play with this network using XOR would a waste of time. :)
+**Note:** Since this is a single layer network, it can only work with linearly separable functions or patterns e.g. AND and OR. Trying to play with this network using XOR would be a waste of time. :)
 
 ### License
 This code is distributed under the MIT license.
